@@ -15,63 +15,11 @@ header {
     height: 50px;
 }
 
-footer {
-    margin: auto;
-    grid-column-start: 1;
-    grid-column-end: 12;
-    background-color: #BE3144;
-    height: 50px;
-}
-
-h1 {
-    margin: auto;
-    color: aliceblue;
-    text-align: center;
-    font-family: 'Trebuchet MS';
-}
-
-h2 {
-    margin-top: 25px;
-    padding-left: 75px;
-    color: white;
-    font-size: 70px;
-    font-family: 'Trebuchet MS';
-}
-
 .menu {
     grid-column-start: 5;
     grid-column-end: 12;
     justify-content: center;
     gap: 20px;
-}
-
-p {
-    font-family: 'Trebuchet MS';
-    color: white;
-}
-
-strong {
-    color: #BE3144;
-}
-
-.infos {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.principal {
-    grid-column-start: 4;
-    grid-column-end: 12;
-    padding-left: 75px;
-    padding-right: 20px;
-    text-align: justify;
-    color: white;
-
-}
-
-.p_inicial {
-    color: white;
-    text-align: justify;
 }
 
 ul {
@@ -102,6 +50,51 @@ li {
     float: left;
 }
 
+footer {
+    margin: auto;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: #BE3144;
+    height: 50px;
+}
+
+h1 {
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+
+h2 {
+    margin-top: 25px;
+    padding-left: 75px;
+    color: white;
+    font-size: 70px;
+    font-family: 'Trebuchet MS';
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 440px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+}
+
+p {
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+strong {
+    color: #BE3144;
+}
+
+.p_inicial {
+    color: white;
+    text-align: justify;
+}
+
 div {
     display: inline-block;
 }
@@ -124,4 +117,57 @@ div {
 .imagem_programming {
     max-height: 50%;
     max-width: 60%;
+}
+
+/* ESTILIZAÇÃO DA PÁGINA "SOBRE MIM" */
+
+.div_imagem_sobre {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.imagem_perfil {
+    max-height: 85%;
+    max-width: 85%;
+}
+
+.div_infos {
+    padding-left: 20px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.section_sobre {
+    grid-column-start: 4;
+    grid-column-end: 12;
+    padding-left: 75px;
+    padding-right: 20px;
+    margin-top: -250px;
+    text-align: justify;
+    color: white;
+}
+
+/* ESTILIZAÇÃO DA PÁGINA "CONTATO" */
+
+
+label {
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+form {
+    margin-top: -25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.rd_sexo{
+    background-color: white;
+}
+
+.msg{
+    color: white;
 }
