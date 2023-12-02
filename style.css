@@ -81,6 +81,14 @@ h3 {
     font-family: 'Trebuchet MS';
 }
 
+h4 {
+    margin: auto;
+    text-align: center;
+    color:aliceblue;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+}
+
 p {
     font-family: 'Trebuchet MS';
     color: white;
@@ -152,7 +160,6 @@ div {
 
 /* ESTILIZAÇÃO DA PÁGINA "CONTATO" */
 
-
 label {
     font-family: 'Trebuchet MS';
     color: white;
@@ -164,10 +171,27 @@ form {
     margin-bottom: 20px;
 }
 
-.rd_sexo{
+.rd_sexo {
     background-color: white;
 }
 
-.msg{
+.msg {
     color: white;
+}
+
+/* ESTILIZAÇÃO DA PÁGINA "PROJETOS" */
+
+.descricao_projeto {
+    display: block;
+}
+
+.info_projeto {
+    margin: auto;
+    text-align: center;
+}
+
+.img_projeto {
+    border: 1px solid #BE3144;
+    display: block;
+    margin: auto;
 }
