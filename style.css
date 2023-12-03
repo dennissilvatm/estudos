@@ -151,9 +151,9 @@ div {
 .section_sobre {
     grid-column-start: 4;
     grid-column-end: 12;
-    padding-left: 75px;
-    padding-right: 20px;
-    margin-top: -250px;
+    padding-left: 50px;
+    padding-right: 35px;
+    margin-top: -325px;
     text-align: justify;
     color: white;
 }
