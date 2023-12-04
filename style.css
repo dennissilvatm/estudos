@@ -1,12 +1,17 @@
+/* ESTILIZAÇÃO DO CORPO DAS PÁGINAS */
+
 body {
     margin: 0;
     padding: 0;
     background-color: #040D12;
 }
 
+/* ESTILIZAÇÃO DOS ELEMENTOS DA PÁGINA COMO GRID */
 .container {
     display: grid;
 }
+
+/* ESTILIZAÇÃO DO TOPO DA PÁGINA */
 
 header {
     grid-column-start: 1;
@@ -14,6 +19,8 @@ header {
     background-color: #BE3144;
     height: 50px;
 }
+
+/* ESTILIZAÇÃO DO MENU DA PÁGINA */
 
 .menu {
     grid-column-start: 5;
@@ -50,6 +57,8 @@ li {
     float: left;
 }
 
+/* ESTILIZAÇÃO DO RODAPÉ DA PÁGINA */
+
 footer {
     margin: auto;
     grid-column-start: 1;
@@ -58,12 +67,16 @@ footer {
     height: 50px;
 }
 
+/* ESTILIZAÇÃO DE CABEÇALHO */
+
 h1 {
     margin: auto;
     color: aliceblue;
     text-align: center;
     font-family: 'Trebuchet MS';
 }
+
+/* ESTILIZAÇÃO DE CABEÇALHO */
 
 h2 {
     margin-top: 25px;
@@ -73,6 +86,8 @@ h2 {
     font-family: 'Trebuchet MS';
 }
 
+/* ESTILIZAÇÃO DE CABEÇALHO */
+
 h3 {
     margin-top: 10px;
     margin-left: 440px;
@@ -80,6 +95,8 @@ h3 {
     font-size: 50px;
     font-family: 'Trebuchet MS';
 }
+
+/* ESTILIZAÇÃO DE CABEÇALHO */
 
 h4 {
     margin: auto;

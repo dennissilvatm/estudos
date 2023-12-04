@@ -4,19 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Dennis Silva</title>
-    <script src="site.js"></script>
+    <link rel="stylesheet" href="style.css"> <!-- LINK DE ACESSO AO CSS -->
+    <title>Dennis Silva</title> <!--TÍTULO DA PÁGINA -->
+    <script src="site.js"></script> <!-- CHAMADA DO JAVASCRIPT DA PÁGINA -->
 </head>
+
+<!-- AQUI COMEÇA O SCRIPT QUE APARECE NA PÁGINA -->
 
 <body>
 
+    <!-- ESSE É O CABEÇALHO PRINCIPAL DA PÁGINA -->
     <header class="container">
-        <h1>Dennis da Silva Pedro</h1>
+        <h1>Dennis da Silva Pedro</h1> <!--TÍTULO -->
     </header>
 
+    <!-- ESSE É O MENU PRINCIPAL DA PÁGINA -->
     <nav class="container menu">
-        <ul>
+        <ul> <!-- LISTA NÃO ORDENADA DE LINKS DE ACESSO DO SITE -->
             <li><a href="https://dennissilvatm.github.io/estudos/">Página Inicial</a></li>
             <li><a href="https://dennissilvatm.github.io/estudos/sobre.html">Sobre Mim</a></li>
             <li><a href="https://dennissilvatm.github.io/estudos/projetos.html">Projetos</a></li>
@@ -24,9 +28,10 @@
         </ul>
     </nav>
 
+    <!-- ESSA É A DIV DE TÍTULO DA PÁGINA -->
     <div>
-        <h3>Entre em contato</h3>
-        <br>
+        <h3>Entre em contato</h3> <!--TÍTULO -->
+        <br> <!-- QUEBRA DE LINHA -->
     </div>
 
     <!-- FORMULÁRIO PARA CONTATO -->
@@ -35,27 +40,30 @@
         <!-- CAMPO DE PREENCHIMENTO DE NOME -->
         <label for="nome">Nome:</label>
         <input type="text" name="nome" placeholder="Digite seu nome" size="50" maxlength="50" required>
-        <br><br>
+        <br><br> <!-- QUEBRA DE LINHA -->
 
         <!-- CAMPO DE PREENCHIMENTO DE E-MAIL -->
         <label for="email">E-mail:</label>
         <input type="email" name="email" placeholder="Digite seu e-mail" size="50" maxlength="50" required>
-        <br><br>
+        <br><br> <!-- QUEBRA DE LINHA -->
 
         <!-- CAMPO DE PREENCHIMENTO DE MENSAGEM -->
         <label for="mensagem" class="msg">Mensagem:</label><br><br>
-        <textarea name="mensagem" placeholder="Digite sua mensagem" rows="8" cols="60" maxlength="500" required></textarea>
-        <br><br>
+        <textarea name="mensagem" placeholder="Digite sua mensagem" rows="8" cols="60" maxlength="500"
+            required></textarea>
+        <br><br> <!-- QUEBRA DE LINHA -->
 
         <!-- BOTÃO DE ENVIO DO FORMULÁRIO -->
         <button onclick="enviaDados()">Enviar</button>
 
     </form>
 
+    <!-- ESTE É O RODAPÉ DA PÁGINA E SEU TÍTULO -->
     <footer class="container">
-        <h1>Desenvolvido para fins educacionais</h1>
+        <h1>Desenvolvido para fins educacionais</h1> <!--TÍTULO -->
     </footer>
 
 </body>
+<!-- AQUI TERMINA O SCRIPT QUE APARECE NA PÁGINA -->
 
 </html>
